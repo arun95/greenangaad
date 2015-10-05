@@ -1,0 +1,144 @@
+<!doctype html>
+
+<html lang="en-US">
+
+<head>
+  
+<meta charset="utf-8">
+  
+<meta http-equiv="Content-Type" content="text/html">
+ 
+ <title>Upload</title>
+
+  <meta name="author" content="Group in">
+ 
+ <link rel="shortcut icon" href="http://static.tmimgcdn.com/img/favicon.ico">
+
+  <link rel="icon" href="http://static.tmimgcdn.com/img/favicon.ico">
+  
+<link rel="stylesheet" type="text/css" media="all" href="csss/styles.css">
+ 
+ <link rel="stylesheet" type="text/css" media="all" href="csss/switchery.min.css">
+ 
+ <script type="text/javascript" src="js/switchery.min.js">
+</script>
+
+</head>
+
+
+<body>
+ 
+ <div id="wrapper">
+
+  
+  <h1>Upload</h1>
+
+  
+  <form name="upload" action="upload.jsp">
+  
+<div class="col-2">
+
+    <label>
+     FirstName
+      <input placeholder="What is your first name?" id="fname" name="fname" tabindex="1">
+    </label>
+
+  </div>
+ 
+ <div class="col-2">
+    
+<label>
+    Product Name      <input placeholder="What is your product name?" id="pname" name="pname" tabindex="2">
+    </label>
+
+  </div>
+
+  
+  <div class="col-3">
+    <label>
+      Quantity
+      <input placeholder="Quantity" id="quantity" name="quantity" tabindex="3">
+    </label>
+  </div>
+
+  <div class="col-3">
+    <label>
+      Starting Date
+      <input placeholder="Date" id="sdate" name="sdate" tabindex="4">
+    </label>
+ 
+ </div>
+  
+<div class="col-3">
+    <label>
+      Cateogry<input placeholder="cateogry" id="cateogry" name="cateogry" tabindex="2">
+   
+ 
+ </label>
+  
+</div>
+  
+ 
+ <div class="col-4">
+
+    <label>
+      Expiry Date     <input placeholder="Expiry Date" id="edate" name="edate" tabindex="6">
+    </label>
+  
+</div>
+
+  <div class="col-4">
+    
+<label>
+     If you uploaded anything before     
+<select tabindex="5" >
+<option>Yes</option>
+<option>No</option> 
+</select>   </label>
+  
+</div>
+  
+<div class="col-4">
+ 
+   <label>MRP
+<input type="text" placeholder="Price"  id="price" name="price" tabindex="10">
+
+</label>
+
+   </div>
+ 
+ <div class="col-4 switch">
+  
+  <label>
+ Discount     
+<select tabindex="5" name="dis">
+<option>Yes</option>
+<option>No</option> 
+</select>   </label>
+  
+
+  </div>
+
+  
+  <div class="col-submit">
+  
+  <input type="submit" value="submit">
+</div>
+
+  
+  </form>
+
+<p align="center"><a href="selleraccount.html"><font color-"black" size="3">Back</font></a></p>
+  </div>
+
+<script type="text/javascript">
+var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
+
+elems.forEach(function(html) {
+  var switchery = new Switchery(html);
+});
+</script>
+
+</body>
+
+</html>
